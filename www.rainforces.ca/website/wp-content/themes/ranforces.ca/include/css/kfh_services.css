@@ -1,0 +1,98 @@
+/***
+Name: kfh-services.css
+Date: May 11, 2017
+Written by KFH: karshi.hasanov@utoronto.ca
+Description: The CSS file to manipulate the dipslay of the Services Menu.
+                    If the screen size gets smaller then 480 pixels, it will change the locacion
+                    and size of the services items.
+Requires:  The "kfh_services.js" file to work!
+***/
+
+#kfh-nav {
+	margin:0;
+	padding: 0;
+	background-color: #fff;
+	text-align: center;
+	
+	}
+
+#kfh-nav li {
+	
+	display: inline; 
+	list-style: none;
+	margin: 0px;
+	padding: 0;
+	text-align: center; 
+	font-size: 9pt; 
+	font-family: Arial, Helvetica, Verdana, sand-serif; font-weight: normal; 
+	color: #fff;
+	}
+	
+.kfh-trigger {
+	display: none;
+	}
+@media screen and (max-width: 480px) {
+	
+	.kfh-trigger {
+   display: block;	
+   color: #305782;
+   background-color: #d5dce4;
+   padding: 10px;
+   text-align: center;
+   font-size: 85%;
+   cursor: pointer;
+	}
+	/* Hide the entire services menu for the small screens */
+	#kfh-nav {
+	display: none;	
+	}
+	/* Dynamic CSS class "kfh-expanded" */
+	.kfh-expanded {
+   display: block;	
+	}
+	#kfh-nav  li {
+	display: list-item;
+	float: none;	
+	border-bottom: 2px solid white;
+	}
+}
+
+#kfh-nav a {
+	display:inline-block;
+	width: 178px;
+	color: white;
+	margin: 0px;
+}
+#building_envelope {
+	background-color: #b34a00;
+}
+#balcony_restoration {
+	background-color: #636466;
+}
+#parking_garage_repairs {
+	background-color: #798301;
+}
+#waterproofing {
+	background-color: #647F93;
+}
+#emergency_services {
+	background-color: #55172D;
+}
+
+
+#kfh-nav li a:link, #kfh-nav li a:visited {
+	text-decoration:  none;
+	margin: 0px;
+	padding: 3px 5px 3px 5px; 	
+
+}
+
+
+
+#kfh-nav li a:hover {
+	background-color: #CCC245;
+	color: #fff;
+}
+
+.
+
