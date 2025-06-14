@@ -1,0 +1,32 @@
+appName: ''
+appUniqueId: null/rainforceee
+appInfo:
+  description: ''
+  appVersion: 1.0.0
+  appRepoUrl: ''
+  appIconUrl: ''
+  appAuthorUserId: null
+  forkedFrom: ''
+technicalInfo:
+  supportedLanguages: []
+  supportedFrameworks: []
+  secrets: []
+  services: []
+  knowledgebases: []
+  instruction: []
+usage:
+  develop:
+    run: []
+    agents: []
+    layout: ''
+  install:
+    steps: []
+    customInstallationAgent:
+      agent: ''
+      enabled: false
+  appUse:
+    agents: []
+    layout: ''
+    prerunsteps: []
+    appPreview:
+      type: ''
