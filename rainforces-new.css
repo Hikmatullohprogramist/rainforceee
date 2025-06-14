@@ -1,11 +1,11 @@
 /* ===== VARIABLES ===== */
 :root {
-  /* Colors */
-  --primary-color: #D97706;
-  --primary-light: #F59E0B;
-  --primary-dark: #B45309;
-  --secondary-color: #1E40AF;
-  --secondary-light: #3B82F6;
+  /* Colors - Logo Orange and Blue */
+  --primary-color: #F57C00;        /* Orange from logo */
+  --primary-light: #FF9800;        /* Lighter orange */
+  --primary-dark: #E65100;         /* Darker orange */
+  --secondary-color: #0097A7;      /* Blue from logo */
+  --secondary-light: #00BCD4;      /* Lighter blue */
   --accent-color: #EF4444;
   --success-color: #10B981;
   --warning-color: #F59E0B;
@@ -208,6 +208,12 @@ img {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+}
+
+.logo-image {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
 }
 
 .logo-icon {
@@ -434,6 +440,8 @@ img {
   background: var(--bg-primary);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
+    margin-bottom:   1rem;
+
 }
 
 .stat__number {
@@ -489,8 +497,8 @@ img {
   color: var(--primary-color);
   border-radius: var(--radius-lg);
   font-weight: 600;
+  
   font-size: 0.875rem;
-  margin-bottom: 1rem;
 }
 
 .section__title {
